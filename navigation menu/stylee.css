@@ -55,7 +55,7 @@ body{
     margin: 10px;
 }
 .menu-bar ul li:hover .sub-menu-1 ul li{
-    width: 110px;
+    width: 140px;
     padding: 10px;
     border-bottom: 1px dotted white;
     background: transparent;
@@ -67,4 +67,17 @@ body{
 }
 .menu-bar ul li:hover .sub-menu-1 ul li a:hover{
     color:blueviolet;
+}
+.fa-angle-right{
+    float: right;
+}
+.sub-menu-2{
+    display: none;
+}
+.hover-me:hover .sub-menu-2{
+    position: absolute;
+    display: block;
+    background-color: rgb(0, 174, 255);
+    margin-top: -40px;
+    margin-left: 140px;
 }
