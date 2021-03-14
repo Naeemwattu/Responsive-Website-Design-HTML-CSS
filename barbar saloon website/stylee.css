@@ -60,3 +60,47 @@
 .banner-btn a:hover{
     color: black;
 }
+
+#sidenav{
+    width: 220px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0;
+    background: #009088;
+    z-index: 2;
+    transition: 0.5s;
+}
+nav ul li{
+    list-style: none;
+    margin: 40px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menubtn{
+    width: 50px;
+    height: 50px;
+    background: #009088;
+    text-align: center;
+    position: fixed;
+    right: 20px;
+    top: 20px;
+    border-radius: 3px;
+    z-index: 3;
+    cursor: pointer;
+}
+#menubtn img{
+    width: 20px;
+    margin-top: 15px;
+}
+@media screen and (max-width:770px){
+    .banner-text h1{
+        font-size: 45px;
+    }
+    .banner-btn a{
+        display: block;
+        margin: 20px auto;
+    }
+}
