@@ -141,3 +141,34 @@ nav ul li a{
 .title-text h1{
     font-size: 40px;
 }
+.feature-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+}
+.features{
+    flex-basis: 50%;
+}
+.features h1{
+    text-align: left;
+    font-weight: 100;
+    color: #009688;
+    margin-bottom: 10px;
+}
+.features-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.features-img img{
+    width: 70%;
+    border-radius: 10px;
+}
+
+.features-desc{
+    display: flex;
+    margin-bottom: 40px;
+    align-items: center;
+}
