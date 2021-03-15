@@ -73,7 +73,7 @@
 }
 nav ul li{
     list-style: none;
-    margin: 40px 15px;
+    margin: 40px 20px;
 }
 nav ul li a{
     text-decoration: none;
@@ -103,4 +103,41 @@ nav ul li a{
         display: block;
         margin: 20px auto;
     }
+}
+
+
+/* ------features------- */
+
+#features{
+    width: 100%;
+    padding:70px 0;
+}
+.title-text{
+    text-align: center;
+    margin-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color: #009088;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+.title-text p::after{
+    content: "";
+    width: 50px;
+    height: 35px;
+    background: linear-gradient(#019587,white);
+    position: absolute;
+    top: -20px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+    border-top-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+}
+.title-text h1{
+    font-size: 40px;
 }
