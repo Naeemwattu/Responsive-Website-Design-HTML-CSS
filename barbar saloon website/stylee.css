@@ -172,3 +172,32 @@ nav ul li a{
     margin-bottom: 40px;
     align-items: center;
 }
+.features-icon .fa{
+    width: 40px;
+    height: 40px;
+    font-size: 30px;
+    line-height: 40px;
+    border: 1px solid #009688;
+    border-radius: 8px;
+    color: #009688;
+}
+.features-text p{
+    padding:0 20px;
+    text-align: initial;
+}
+
+@media screen and (max-width:770px){
+    .title-text h1{
+        font-size: 30px;
+    }
+    .features{
+        flex-basis: 100%;
+    }
+    .features-img{
+        flex-basis: 100%;
+    }
+    .features-img img{
+        width: 100%;
+    }
+
+}
