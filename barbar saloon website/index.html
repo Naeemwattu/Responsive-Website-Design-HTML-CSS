@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="stylee.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 </head>
 
 <body>
@@ -26,11 +27,11 @@
     <div id="sidenav">
         <nav>
             <ul>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">FEATURES</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">TESTIMONIAL</a></li>
-                <li><a href="#">MEET US</a></li>
+                <li><a href="#banner">HOME</a></li>
+                <li><a href="#features">FEATURES</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#testimonial">TESTIMONIAL</a></li>
+                <li><a href="#footer">MEET US</a></li>
             </ul>
         </nav>
     </div>
@@ -136,48 +137,81 @@
     </section>
 
 
-<!-- Testimonial -->
-<section id="testimonial">
-    <div class="title-text">
-        <p>TESTIMONIAL</p>
-        <h1>What Client Says</h1>
-    </div>
-    <div class="testtimonial-row">
-        <div class="testimonial-col">
-            <div class="user">
-                <img src="img/img-1.jpg">
-                <div class="user-info">
-                    <h4>NOMI WATTU <i class="fa fa-twitter"></i> </h4>
-                    <small>@nomiwattu</small>
-                </div>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente praesentium veritatis quia ipsum laborum, iusto harum nam quisquam sequi rem aliquam amet neque, placeat iure odit aperiam laboriosam. Dolorem, ipsum.</p>
+    <!-- Testimonial -->
+    <section id="testimonial">
+        <div class="title-text">
+            <p>TESTIMONIAL</p>
+            <h1>What Client Says</h1>
         </div>
-        <div class="testimonial-col">
-            <div class="user">
-                <img src="img/img-2.jpg">
-                <div class="user-info">
-                    <h4>ZARNAB <i class="fa fa-twitter"></i> </h4>
-                    <small>@zarnab</small>
+        <div class="testtimonial-row">
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="img/img-1.jpg">
+                    <div class="user-info">
+                        <h4>NOMI WATTU <i class="fa fa-twitter"></i> </h4>
+                        <small>@nomiwattu</small>
+                    </div>
                 </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente praesentium veritatis quia ipsum
+                    laborum, iusto harum nam quisquam sequi rem aliquam amet neque, placeat iure odit aperiam
+                    laboriosam. Dolorem, ipsum.</p>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eveniet reprehenderit molestias, doloribus id sed accusantium accusamus libero magnam distinctio.</p>
-        </div>
-        <div class="testimonial-col">
-            <div class="user">
-                <img src="img/img-3.jpg">
-                <div class="user-info">
-                    <h4>UMAR QAYYUM<i class="fa fa-twitter"></i> </h4>
-                    <small>@umarqayyum</small>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="img/img-2.jpg">
+                    <div class="user-info">
+                        <h4>ZARNAB <i class="fa fa-twitter"></i> </h4>
+                        <small>@zarnab</small>
+                    </div>
                 </div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis eveniet reprehenderit molestias,
+                    doloribus id sed accusantium accusamus libero magnam distinctio.</p>
             </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae, odit facilis deserunt tempora error itaque maxime voluptas dolorem est, asperiores reprehenderit iste eligendi eum, unde praesentium dicta. Voluptas consequatur illum maxime, voluptates laborum assumenda.</p>
+            <div class="testimonial-col">
+                <div class="user">
+                    <img src="img/img-3.jpg">
+                    <div class="user-info">
+                        <h4>UMAR QAYYUM<i class="fa fa-twitter"></i> </h4>
+                        <small>@umarqayyum</small>
+                    </div>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi vitae, odit facilis deserunt tempora
+                    error itaque maxime voluptas dolorem est, asperiores reprehenderit iste eligendi eum, unde
+                    praesentium dicta. Voluptas consequatur illum maxime, voluptates laborum assumenda.</p>
+            </div>
         </div>
-    </div>
 
-</section>
+    </section>
 
+    <!-- FOOTER -->
 
+    <section id="footer">
+        <img src="img/footer-img.png" class="footer-img">
+        <div class="title-text">
+            <p>CONTACTS</p>
+            <h1>Visit Shop Today</h1>
+        </div>
+        <div class="footer-row">
+            <div class="footer-left">
+                <h1>Opening Hour</h1>
+                <p><i class="fa fa-clock-o"></i>Monday to Thursday - 10AM to 9PM</p>
+                <p><i class="fa fa-clock-o"></i>Friday to Sunday - 8AM to 11PM</p>
+            </div>
+            <div class="footer-right">
+                <h1>Contact US</h1>
+                <p>Mohallah Rasool Pura Sambrial Sialkot<i class="fa fa-map-marker"></i></p>
+                <p>barbarsaloon@gnmial.com<i class="fa fa-paper-plane"></i></p>
+                <p>+92 333 1234567<i class="fa fa-phone"></i></p>
+            </div>
+        </div>
+        <div class="social-links">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-youtube"></i>
+            <p>Copyright..............</p>
+        </div>
+    </section>
 
 
 
@@ -199,6 +233,10 @@
                 menu.src = "img/menu.png"
             }
         }
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
     </script>
 </body>
 
