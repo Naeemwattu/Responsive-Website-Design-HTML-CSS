@@ -170,6 +170,10 @@ h3{
     margin: auto;
     padding-top: 50px;
 }
+.campus h1{
+    font-size: 35px;
+    font-weight: 600;
+}
 .campus p{
     color: #777;
     font-size: 13px;
@@ -186,6 +190,7 @@ h3{
 }
 .campus-col img{
     width: 100%;
+    display: block;
 }
 .layer{
     background: transparent;
@@ -205,7 +210,13 @@ h3{
     color: white;
     font-size: 25px;
     bottom: 0;
-    left: 50%;
+    left: 0;
     transition: translateX(-50%);
     position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
 }
